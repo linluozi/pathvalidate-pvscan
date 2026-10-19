@@ -1,0 +1,29 @@
+|PyPI pkg ver| |conda pkg ver| |Supported Python ver| |Supported Python impl| |CI status| |Test coverage| |CodeQL|
+
+.. |PyPI pkg ver| image:: https://badge.fury.io/py/pathvalidate.svg
+    :target: https://badge.fury.io/py/pathvalidate
+    :alt: PyPI package version
+
+.. |conda pkg ver| image:: https://anaconda.org/conda-forge/pathvalidate/badges/version.svg
+    :target: https://anaconda.org/conda-forge/pathvalidate
+    :alt: conda package version
+
+.. |Supported Python ver| image:: https://img.shields.io/pypi/pyversions/pathvalidate.svg
+    :target: https://pypi.org/project/pathvalidate
+    :alt: Supported Python versions
+
+.. |Supported Python impl| image:: https://img.shields.io/pypi/implementation/pathvalidate.svg
+    :target: https://pypi.org/project/pathvalidate
+    :alt: Supported Python implementations
+
+.. |CI status| image:: https://github.com/thombashi/pathvalidate/actions/workflows/ci.yml/badge.svg
+    :target: https://github.com/thombashi/pathvalidate/actions/workflows/ci.yml
+    :alt: CI status of Linux/macOS/Windows
+
+.. |Test coverage| image:: https://coveralls.io/repos/github/thombashi/pathvalidate/badge.svg?branch=master
+    :target: https://coveralls.io/github/thombashi/pathvalidate?branch=master
+    :alt: Test coverage: coveralls
+
+.. |CodeQL| image:: https://github.com/thombashi/pathvalidate/actions/workflows/github-code-scanning/codeql/badge.svg
+    :target: https://github.com/thombashi/pathvalidate/actions/workflows/github-code-scanning/codeql
+    :alt: CodeQL

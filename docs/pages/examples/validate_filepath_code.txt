@@ -1,0 +1,15 @@
+:Sample Code:
+    .. code-block:: python
+
+        import sys
+        from pathvalidate import ValidationError, validate_filepath
+
+        try:
+            validate_filepath("fi:l*e/p\"a?t>h|.t<xt")
+        except ValidationError as e:
+            print(e, file=sys.stderr)
+
+:Output:
+    .. code-block:: none
+
+        [PV1100] invalid characters found: invalids=(':', '*', '"', '?', '>', '|', '<'), value='fi:l*e/p"a?t>h|.t<xt', platform=Windows

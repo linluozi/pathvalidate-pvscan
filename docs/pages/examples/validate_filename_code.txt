@@ -1,0 +1,22 @@
+:Sample Code:
+    .. code-block:: python
+
+        import sys
+        from pathvalidate import ValidationError, validate_filename
+
+        try:
+            validate_filename("fi:l*e/p\"a?t>h|.t<xt")
+        except ValidationError as e:
+            print(f"{e}\n", file=sys.stderr)
+
+        try:
+            validate_filename("COM1")
+        except ValidationError as e:
+            print(f"{e}\n", file=sys.stderr)
+
+:Output:
+    .. code-block:: none
+
+        [PV1100] invalid characters found: platform=universal, description=invalids=('/'), value='fi:l*e/p"a?t>h|.t<xt'
+
+        [PV1002] found a reserved name by a platform: 'COM1' is a reserved name, platform=universal, reusable_name=False

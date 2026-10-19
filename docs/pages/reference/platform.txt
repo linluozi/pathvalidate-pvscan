@@ -1,0 +1,10 @@
+Valid specifiers are as follows (case-insensitive):
+
+    - ``"Linux"``
+    - ``"Windows"``
+    - ``"macOS"``
+    - ``"auto"``: automatically detect the execution platform
+    - ``"POSIX"``: POSIX-compliant systems (Linux, macOS, etc.)
+    - ``"universal"``/|None|: platform independent. note that absolute paths cannot specify this.
+
+Defaults to |None|.

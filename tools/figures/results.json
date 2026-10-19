@@ -1,0 +1,103 @@
+{
+  "scanned": 16,
+  "invalid_before": 4,
+  "issues_before": 11,
+  "kinds": {
+    "RESERVED_NAME": 2,
+    "WSL_MAPPED_CHARACTER": 5,
+    "UNNORMALIZED_UNICODE": 1,
+    "INVISIBLE_CHARACTER": 1,
+    "INVALID_CHARACTER": 2
+  },
+  "planned_renames": 12,
+  "applied_renames": 12,
+  "invalid_after": 0,
+  "issues_after": 0,
+  "renames": [
+    {
+      "source": "E:\\WorkBuddy-Work\\WorkBuddy-0\\pvscan-dev\\tools\\figures\\_tree\\subdir\\inner1.log",
+      "target": "E:\\WorkBuddy-Work\\WorkBuddy-0\\pvscan-dev\\tools\\figures\\_tree\\subdir\\inner_1_.log",
+      "reasons": [
+        "sanitize"
+      ]
+    },
+    {
+      "source": "E:\\WorkBuddy-Work\\WorkBuddy-0\\pvscan-dev\\tools\\figures\\_tree\\CON.txt",
+      "target": "E:\\WorkBuddy-Work\\WorkBuddy-0\\pvscan-dev\\tools\\figures\\_tree\\CON_.txt",
+      "reasons": [
+        "sanitize"
+      ]
+    },
+    {
+      "source": "E:\\WorkBuddy-Work\\WorkBuddy-0\\pvscan-dev\\tools\\figures\\_tree\\ab.txt",
+      "target": "E:\\WorkBuddy-Work\\WorkBuddy-0\\pvscan-dev\\tools\\figures\\_tree\\a_b.txt",
+      "reasons": [
+        "sanitize"
+      ]
+    },
+    {
+      "source": "E:\\WorkBuddy-Work\\WorkBuddy-0\\pvscan-dev\\tools\\figures\\_tree\\ab.txt",
+      "target": "E:\\WorkBuddy-Work\\WorkBuddy-0\\pvscan-dev\\tools\\figures\\_tree\\a_b (2).txt",
+      "reasons": [
+        "sanitize",
+        "collision"
+      ]
+    },
+    {
+      "source": "E:\\WorkBuddy-Work\\WorkBuddy-0\\pvscan-dev\\tools\\figures\\_tree\\café.txt",
+      "target": "E:\\WorkBuddy-Work\\WorkBuddy-0\\pvscan-dev\\tools\\figures\\_tree\\café.txt",
+      "reasons": [
+        "sanitize"
+      ]
+    },
+    {
+      "source": "E:\\WorkBuddy-Work\\WorkBuddy-0\\pvscan-dev\\tools\\figures\\_tree\\dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd.tar.gz",
+      "target": "E:\\WorkBuddy-Work\\WorkBuddy-0\\pvscan-dev\\tools\\figures\\_tree\\ddddddddddddddddddddddddddddddddd.tar.gz",
+      "reasons": [
+        "sanitize"
+      ]
+    },
+    {
+      "source": "E:\\WorkBuddy-Work\\WorkBuddy-0\\pvscan-dev\\tools\\figures\\_tree\\inv​isible.txt",
+      "target": "E:\\WorkBuddy-Work\\WorkBuddy-0\\pvscan-dev\\tools\\figures\\_tree\\invisible.txt",
+      "reasons": [
+        "sanitize"
+      ]
+    },
+    {
+      "source": "E:\\WorkBuddy-Work\\WorkBuddy-0\\pvscan-dev\\tools\\figures\\_tree\\lead ",
+      "target": "E:\\WorkBuddy-Work\\WorkBuddy-0\\pvscan-dev\\tools\\figures\\_tree\\lead",
+      "reasons": [
+        "sanitize"
+      ]
+    },
+    {
+      "source": "E:\\WorkBuddy-Work\\WorkBuddy-0\\pvscan-dev\\tools\\figures\\_tree\\nul.tar.gz",
+      "target": "E:\\WorkBuddy-Work\\WorkBuddy-0\\pvscan-dev\\tools\\figures\\_tree\\nul_.tar.gz",
+      "reasons": [
+        "sanitize"
+      ]
+    },
+    {
+      "source": "E:\\WorkBuddy-Work\\WorkBuddy-0\\pvscan-dev\\tools\\figures\\_tree\\reportfinal.log",
+      "target": "E:\\WorkBuddy-Work\\WorkBuddy-0\\pvscan-dev\\tools\\figures\\_tree\\report_final_.log",
+      "reasons": [
+        "sanitize"
+      ]
+    },
+    {
+      "source": "E:\\WorkBuddy-Work\\WorkBuddy-0\\pvscan-dev\\tools\\figures\\_tree\\subdir",
+      "target": "E:\\WorkBuddy-Work\\WorkBuddy-0\\pvscan-dev\\tools\\figures\\_tree\\sub_dir",
+      "reasons": [
+        "sanitize"
+      ]
+    },
+    {
+      "source": "E:\\WorkBuddy-Work\\WorkBuddy-0\\pvscan-dev\\tools\\figures\\_tree\\trail.",
+      "target": "E:\\WorkBuddy-Work\\WorkBuddy-0\\pvscan-dev\\tools\\figures\\_tree\\trail",
+      "reasons": [
+        "sanitize"
+      ]
+    }
+  ]
+}

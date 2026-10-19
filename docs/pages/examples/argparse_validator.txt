@@ -1,0 +1,29 @@
+:Sample Code:
+    .. code-block:: python
+
+        from argparse import ArgumentParser
+
+        from pathvalidate.argparse import validate_filename_arg, validate_filepath_arg
+
+        parser = ArgumentParser()
+        parser.add_argument("--filename", type=validate_filename_arg)
+        parser.add_argument("--filepath", type=validate_filepath_arg)
+        options = parser.parse_args()
+
+        if options.filename:
+            print(f"filename: {options.filename}")
+
+        if options.filepath:
+            print(f"filepath: {options.filepath}")
+
+:Output:
+    .. code-block:: none
+
+        $ ./examples/argparse_validate.py --filename eg
+        filename: eg
+        $ ./examples/argparse_validate.py --filename e?g
+        usage: argparse_validate.py [-h] [--filename FILENAME] [--filepath FILEPATH]
+        argparse_validate.py: error: argument --filename: [PV1100] invalid characters found: invalids=(':'), value='e:g', platform=Windows
+
+.. note::
+    ``validate_filepath_arg`` consider ``platform`` as of ``"auto"`` if the input is an absolute file path.

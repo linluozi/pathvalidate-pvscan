@@ -1,0 +1,12 @@
+:Sample Code:
+    .. code-block:: python
+
+        from pathvalidate import replace_symbol
+
+        name = "\0_a*b:c<d>e%f/(g)h+i_0.txt"
+        print(f"{name} -> {replace_symbol(name)}")
+
+:Output:
+    .. code-block:: none
+
+        _a*b:c<d>e%f/(g)h+i_0.txt -> abcdefghi0txt

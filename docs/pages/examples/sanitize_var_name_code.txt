@@ -1,0 +1,11 @@
+:Sample Code:
+    .. code-block:: python
+
+        import pathvalidate as pv
+
+        print(pv.sanitize_python_var_name("_a*b:c<d>e%f/(g)h+i_0.txt"))
+
+:Output:
+    .. code-block:: none
+
+        abcdefghi_0txt
